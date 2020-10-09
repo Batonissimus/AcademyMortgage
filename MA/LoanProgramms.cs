@@ -18,7 +18,7 @@ namespace MA
         [SetUp]
         public void startBrowser()
         {
-            driver = new ChromeDriver(@"C:\Users\akochnev\Documents\Task\MA\MA\bin\Debug");
+            driver = new ChromeDriver();
         }
 
         [Test]
